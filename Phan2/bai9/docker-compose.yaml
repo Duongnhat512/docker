@@ -1,0 +1,6 @@
+services:
+  app:
+    image: learning-docker/python:v1
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
